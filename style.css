@@ -1,0 +1,64 @@
+#contactinfo{
+    text-align: right;
+}
+
+#header{
+    background-color: tan; 
+    color: white; font-size: x-large;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+#hlink{
+    color:white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+#title1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#subtittle{
+    text-align: center;
+}
+
+#p1{
+    margin:50px;
+}
+
+#title2{
+    text-align: center;
+}
+
+#title3{
+    text-align: center;
+    
+}
+
+#footer{
+    background-color: tan;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+#footertitle{
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+
+}
+
+
+
+/*gallery page*/
+
+#pic{
+    margin-left: auto;
+    width: 75%;
+}
