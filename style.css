@@ -25,10 +25,28 @@
 
 #subtittle{
     text-align: center;
+    color: #BF0D3E;
+}
+
+#paragraph{
+    border: 1px solid;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #p1{
-    margin:50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: larger;
+}
+
+#p2{
+    font-size: larger;
+    font-weight: lighter;
+    padding-left: 50px;
 }
 
 #title2{
