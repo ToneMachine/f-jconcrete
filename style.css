@@ -3,19 +3,35 @@
     color: #BF0D3E;
 }
 
-#header{
-    background-color: #041E42; 
-    color: white; font-size: x-large;
-    margin-top: 25px;
+/*navagation bar*/
+.navbar {
+    display: grid;
+    justify-content: center; /* Centers the text horizontally */
+    background-color: #041E42;
+}
+
+.navbar ul {
+    display: grid;
+    grid-auto-flow: column; /* Aligns items in a row */
+    gap: 30px; /* Adjust spacing between items */
+    list-style-type: none;
+    color: white;
+    font-size: x-large;
+    margin: 0px;
+    padding: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: block;
     text-align: center;
+    color: white;
 
 }
 
-#hlink{
-    color:white;
-    text-align: center;
-    padding: 20px;
-    text-decoration: none;
+.navbar a:hover {
+    color: grey;
+    
 }
 
 #title1{
@@ -29,7 +45,7 @@
 }
 
 #paragraph{
-    border: 1px solid;
+    border: 2px solid;
     margin-bottom: 50px;
     margin-left: 200px;
     margin-right: 200px;
@@ -46,7 +62,7 @@
 #p2{
     font-size: larger;
     font-weight: lighter;
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 #title2{
