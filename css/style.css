@@ -1,6 +1,15 @@
-#contactinfo{
-    text-align: right;
-    color: #BF0D3E;
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*header banner*/
+.header img{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /*navagation bar*/
@@ -8,6 +17,8 @@
     display: grid;
     justify-content: center; /* Centers the text horizontally */
     background-color: #041E42;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar ul {
@@ -49,6 +60,8 @@
     margin-bottom: 50px;
     margin-left: 200px;
     margin-right: 200px;
+    padding-left: 0px;
+    text-align: center;
 }
 
 #p1{
