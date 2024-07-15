@@ -1,6 +1,7 @@
-html, body {
+html, body{
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 /*header banner*/
@@ -13,7 +14,7 @@ html, body {
 }
 
 /*navagation bar*/
-.navbar {
+.navbar{
     display: grid;
     justify-content: center; /* Centers the text horizontally */
     background-color: #041E42;
@@ -21,7 +22,7 @@ html, body {
     margin: 0px;
 }
 
-.navbar ul {
+.navbar ul{
     display: grid;
     grid-auto-flow: column; /* Aligns items in a row */
     gap: 30px; /* Adjust spacing between items */
@@ -32,7 +33,7 @@ html, body {
     padding: 0;
 }
 
-.navbar a {
+.navbar a{
     text-decoration: none;
     display: block;
     text-align: center;
@@ -40,51 +41,42 @@ html, body {
 
 }
 
-.navbar a:hover {
+.navbar a:hover{
     color: grey;
     
 }
 
-#title1{
+/*paragraphs styles*/
+.paragraph{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(224, 209, 188);
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -20px;
+    margin-right: 500px;
+    
+}
+
+.paragraph h1{
     text-align: center;
     margin-top: 50px;
 }
 
-#subtittle{
+.paragraph h3{
     text-align: center;
     color: #BF0D3E;
 }
 
-#paragraph{
-    border: 2px solid;
-    margin-bottom: 50px;
+.paragraph p{
     margin-left: 200px;
     margin-right: 200px;
-    padding-left: 0px;
-    text-align: center;
-}
-
-#p1{
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
+    margin-top: 25px;
     margin-bottom: 50px;
     font-size: larger;
-}
-
-#p2{
-    font-size: larger;
-    font-weight: lighter;
-    padding-left: 200px;
-}
-
-#title2{
-    text-align: center;
-}
-
-#title3{
-    text-align: center;
-    
+    color: black;
+    font-weight: 75;
 }
 
 #footer{
