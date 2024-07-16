@@ -49,7 +49,7 @@ html, body{
 /*paragraphs styles*/
 .paragraph{
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgb(224, 209, 188);
     text-align: center;
     margin-top: 50px;
@@ -79,6 +79,23 @@ html, body{
     font-weight: 75;
 }
 
+/*about back ground*/
+#about{
+    background-image: url(../image/Untitled.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+/*contact background*/
+#contact{
+    background-image: url(../image/Untitled2.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+/*footer*/
 #footer{
     background-color: #041E42;
     color: white;
@@ -95,10 +112,7 @@ html, body{
 
 }
 
-
-
 /*gallery page*/
-
 #pic{
     margin-left: auto;
     width: 75%;
