@@ -10,8 +10,8 @@ html, body{
     background-size: cover;
     width: 100%;
     height: 100%;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*navagation bar*/
@@ -31,7 +31,7 @@ html, body{
     color: white;
     font-size: x-large;
     margin: 0px;
-    padding: 0;
+    padding: 0px;
 }
 
 .navbar a{
@@ -39,12 +39,10 @@ html, body{
     display: block;
     text-align: center;
     color: white;
-
 }
 
 .navbar a:hover{
-    color: grey;
-    
+    color: grey;   
 }
 
 /*paragraphs styles*/
@@ -56,8 +54,7 @@ html, body{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: -20px;
-    margin-right: 500px;
-    
+    margin-right: 500px;    
 }
 
 .paragraph h1{
@@ -80,7 +77,7 @@ html, body{
     font-weight: 75;
 }
 
-/*about back ground*/
+/*about background*/
 #about{
     background-image: url(../image/Untitled.jpg);
     background-repeat: no-repeat;
@@ -101,8 +98,7 @@ html, body{
     background-color: #041E42;
     color: white;
     padding-bottom: 10px;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 #footertitle{
@@ -110,7 +106,6 @@ html, body{
     text-decoration: none;
     font-size: x-large;
     color: white;
-
 }
 
 /*gallery page*/
