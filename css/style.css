@@ -26,6 +26,7 @@ html, body{
 .navbar ul{
     display: grid;
     grid-auto-flow: column; /* Aligns items in a row */
+    justify-content: center;
     gap: 30%; /* Adjust spacing between items */
     list-style-type: none;
     color: white;
