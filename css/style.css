@@ -26,7 +26,7 @@ html, body{
 .navbar ul{
     display: grid;
     grid-auto-flow: column; /* Aligns items in a row */
-    gap: 30px; /* Adjust spacing between items */
+    gap: 30%; /* Adjust spacing between items */
     list-style-type: none;
     color: white;
     font-size: x-large;
@@ -54,7 +54,7 @@ html, body{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: -20px;
-    margin-right: 500px;    
+    margin-right: 25%;    
 }
 
 .paragraph h1{
@@ -68,8 +68,8 @@ html, body{
 }
 
 .paragraph p{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 25px;
     margin-bottom: 50px;
     font-size: large;
@@ -83,6 +83,7 @@ html, body{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
+    background-size: 50%;
 }
 
 /*contact background*/
@@ -91,6 +92,7 @@ html, body{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
+    background-size: 25%;
 }
 
 /*footer*/
