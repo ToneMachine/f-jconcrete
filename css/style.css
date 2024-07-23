@@ -8,10 +8,11 @@ html, body{
 /*header banner*/
 .header img{
     background-size: cover;
-    width: 150%;
+    width: 100%;
     height: 150%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0%;
+    padding: 0%;
+    display: block;
 }
 
 /*navagation bar*/
@@ -19,8 +20,8 @@ html, body{
     display: grid;
     justify-content: center; /* Centers the text horizontally */
     background-color: #041E42;
-    padding: 0px;
-    margin: 0px;
+    padding: 0%;
+    margin: 0%;
 }
 
 .navbar ul{
